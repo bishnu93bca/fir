@@ -1,0 +1,32 @@
+.container-fluid{
+	background-color: black;
+}
+.my-menu{
+	margin-top:-40px;
+
+}
+.my-menu .top-heading{
+	margin-top: 60px;
+	color: white;
+}
+.my-menu .navbar-default{
+	background: none;
+	border:2px;
+}
+.my-menu .navbar-nav .active a,.my-menu .navbar-nav .active a:hover{
+	background-color: green;
+	color: white;
+
+}
+.my-menu .navbar-nav li a:hover{
+	background-color: green;
+	color:white;
+}
+@media(max-width: 700px){
+.my-menu .pull-left{
+ float: none !important;
+	}
+}
+.mid-heading{
+	margin-top: 180px;
+}

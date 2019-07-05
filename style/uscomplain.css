@@ -1,0 +1,77 @@
+
+.container-fluid{
+	background-color: rgba(0,0,0,0.7);
+}
+.my-menu{
+	margin-top:-40px;
+	font-size: 16px;
+
+}
+.my-menu .top-heading{
+	margin-top: 60px;
+	color: white;
+	font-size: 30px;
+}
+.my-menu .navbar-default{
+	background: none;
+	border:2px;
+}
+.my-menu .navbar-nav .active a,.my-menu .navbar-nav .active a:hover{
+	background-color:#3b5998 ;
+	color: white;
+
+}
+.my-menu .navbar-nav li a:hover{
+	background-color:#3b5998;
+	color:white;
+}
+@media(max-width: 700px){
+.my-menu .pull-left{
+ float: none !important;
+	}
+}
+.mid-heading{
+	margin-top: 70px;
+	font-style: italic;
+	font-size: 40px;
+	font-weight: bold;
+
+}
+#form{
+	color: white;
+	min-height: 300px;
+	 padding: 5px 40px 40px;
+			 
+	}
+.search{
+	font-size: 45px;	
+	font-style: italic;
+	color: white;
+	}
+
+label
+{
+	font-size: 24px;
+}
+.btn-primary
+{
+border-radius: 0px;padding: 10px;
+width: 30%;
+}
+.footer{
+	margin-top: 170px;
+	min-height: 60px;
+	width: 100%;
+	background-color: #666666;
+}
+body{
+	background-image: url(../images/po.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new time roman;
+}
+.form-control{
+	    background-color: #010d1096!important;
+	    color: #eaf0f3!important;
+
+}		

@@ -1,0 +1,81 @@
+.container-fluid{
+	background-color: rgba(0,0,0,0.7);
+}
+.my-menu{
+	margin-top:-40px;
+
+}
+.my-menu .top-heading{
+	margin-top: 60px;
+	font-size: 30px;
+	color: white;
+}
+.my-menu .navbar-default{
+	background: none;
+	border:2px;
+	font-size: 20px;
+}
+.my-menu .navbar-nav .active a,.my-menu .navbar-nav .active a:hover{
+	background-color:#3b5998 ;
+	color: white;
+
+}
+.my-menu .navbar-nav li a:hover{
+	background-color:#3b5998 ;
+	color:white;
+}
+@media(max-width: 700px){
+.my-menu .pull-left{
+ float: none !important;
+	}
+}
+.mid-heading{
+	margin-top: 180px;
+}
+#form{
+	color:white;
+	min-height: 700px;
+	 padding: 5px 40px 40px;
+			 
+	}
+.Complaint{
+	font-size: 40px;
+	font-weight: bold;
+	font-style: italic;
+	color:white ;
+	}
+.text{
+	height: 43px;
+
+		}
+		label{
+			font-size: 22px;
+		}
+		.btn-primary{
+			border-radius: 0px;padding: 10px;
+			width: 49%;
+		}
+		.btn-danger{
+			border-radius: 0px;padding: 10px;
+			width: 49%;
+		}
+.footer{
+	margin-top: 50px;
+	min-height: 60px;
+	width: 100%;
+	background-color: #666666;
+}
+.mid-heading{
+	margin-top: 20px;
+}
+body{
+	background-image: url(../images/b.jpg);
+	background-attachment: fixed;
+	background-size: cover;
+	font-family: new time roman;
+}
+.form-control{
+	    background-color: #01101596!important;
+	    color: #eaf0f3!important;
+
+}		
